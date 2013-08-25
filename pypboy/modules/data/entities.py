@@ -243,3 +243,9 @@ class GalaxyNewsRadio(RadioStation):
 	def __init__(self, *args, **kwargs):
 		self.directory = 'sounds/radio/gnr/'
 		super(GalaxyNewsRadio, self).__init__(self, *args, **kwargs)
+
+class RadioEnclave(RadioStation):
+
+	def __init__(self, *args, **kwargs):
+		self.directory = 'sounds/radio/enc/'
+		super(RadioEnclave, self).__init__(self, *args, **kwargs)
